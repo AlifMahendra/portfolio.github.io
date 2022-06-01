@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: var(--second-color);
+    }
+
+    .about .isi .std .box {
+        max-width: 100%;
+    }
+
+    .about .isi .std .box:nth-child(3) {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .potong {
+        margin: 0 50px;
+    }
+
+    .breakpoint {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    span.br {
+        width: 25px;
+        height: 5px;
+        border-radius: 10px;
+        margin-top: 2px;
+        background-color: var(--primary-color);
+    }
+
+    .menu {
+        position: fixed;
+        border-left: 1px solid var(--primary-color);
+        width: 100%;
+        height: 90vh;
+        right: -100%;
+        bottom: 0;
+        z-index: 10;
+        background-color: var(--second-color);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        animation: 1s ease-in-out;
+    }
+
+    #checkbox:checked~.menu {
+        right: -50%;
+    }
+
+    .menu a {
+        margin: 10px 0;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .potong {
+        margin: 0 20px;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+
+    .body .bg {
+        flex-basis: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info .desin {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info .desin .kotak {
+        width: 100%;
+    }
+}
