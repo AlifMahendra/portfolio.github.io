@@ -319,3 +319,7 @@ span {
 .breakpoint {
     display: none;
 }
+
+#geser {
+    display: none;
+}
