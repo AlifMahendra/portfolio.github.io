@@ -9,6 +9,57 @@
     --primary-color: #FFD700;
     --second-color: #022C43;
     --tird-color: #fff;
+    --dark-mode: #1B1A17;
+}
+
+.darkmode {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: var(--tird-color);
+}
+
+.darkmode h4 {
+    padding: 0px 4px;
+    display: flex;
+    font-size: large;
+    align-items: center;
+}
+
+.landasan {
+    width: 30px;
+    height: 15px;
+    border-radius: 50px;
+    border: 2px solid var(--tird-color);
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+    transition: 1s;
+}
+
+.landasan.board {
+    justify-content: start;
+    transition: 1s;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--tird-color);
+    transition: 1s;
+}
+
+.dark {
+    background-color: var(--dark-mode);
+}
+
+.select.dark {
+    background-color: var(--dark-mode);
+}
+
+.select.fixed.dark {
+    background-color: var(--dark-mode);
 }
 
 html {
@@ -69,6 +120,7 @@ a {
 
 .head .menu {
     display: flex;
+    align-items: center;
 }
 
 .head .menu a {

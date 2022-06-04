@@ -26,6 +26,17 @@
                     <a href="#about">about me</a>
                     <a href="#info">profile</a>
                     <a href="#project">project</a>
+                    <div class="darkmode">
+                        <h4>
+                            <ion-icon name="moon"></ion-icon>
+                        </h4>
+                        <div class="landasan" onclick="darkMode()">
+                            <div class="circle"></div>
+                        </div>
+                        <h4>
+                            <ion-icon name="sunny"></ion-icon>
+                        </h4>
+                    </div>
                     <label for="checkbox" id="geser">-></label>
                 </div>
                 <label for="checkbox" class="breakpoint">
@@ -160,7 +171,7 @@
             </div>
         </div>
     </div>
-    <div class="select cr">
+    <div class="select cr" id="cr">
         <div class="potong">
             <div class="bottom">
                 <div class="logo">
@@ -176,6 +187,8 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
