@@ -107,4 +107,23 @@
         border-left: 0;
         height: 100%;
     }
+
+    .bottom {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .cra {
+        display: flex;
+        justify-content: end;
+        text-align: end;
+        font-size: small;
+    }
+
+    .bottom .cra p {
+        padding: 0 10px;
+    }
 }
